@@ -1,0 +1,50 @@
+.recommendation-panel {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-panel h2 {
+  margin-top: 0;
+}
+
+.recommendation {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+
+.recommendation.buy {
+  background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+}
+
+.recommendation.sell {
+  background: linear-gradient(135deg, #f87171 0%, #ef4444 100%);
+}
+
+.recommendation.hold {
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+}
+
+.recommendation .action {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.recommendation .confidence {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.details p {
+  margin: 8px 0;
+  color: #333;
+}
+
+.details strong {
+  color: #667eea;
+}
